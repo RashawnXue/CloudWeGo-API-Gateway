@@ -9,7 +9,7 @@ import (
 	service "hertzSvr-IDLManagement/biz/model/hertzSvr/service"
 )
 
-// AddIDL .
+// AddIDL
 // 添加IDL，如果已有svcName，则返回错误信息
 // @router /idlManager/add [POST]
 func AddIDL(ctx context.Context, c *app.RequestContext) {
